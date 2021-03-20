@@ -8,7 +8,7 @@ function Balance(props) {
 
   const amount = transactions.map((amount) => amount.amount);
   const sum = amount.reduce((acc, itm) => (acc += itm), 0).toFixed(2);
-
+  console.log("new testing console....");
   return (
     <>
       <h4>Your Balance</h4>
